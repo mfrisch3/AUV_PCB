@@ -1658,6 +1658,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1404c80d-26e0-4101-8b18-cecbf66f7c8f")
+		(property "Reference" "TP7"
+			(at 115.57 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 115.57 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f416a7-ecb5-4520-920b-fb1184580b38")
+		)
+		(instances
+			(project ""
+				(path "/f412f52f-8b26-42c9-ae2d-faf383be7caf"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 157.48 115.57 270)
 		(unit 1)
@@ -2079,6 +2146,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 203.2 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41627843-bc6e-4681-aa44-58868f276d25")
+		(property "Reference" "TP8"
+			(at 205.74 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 205.74 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6969ea2-1fc5-4f9d-b043-7db859a7dd53")
+		)
+		(instances
+			(project ""
+				(path "/f412f52f-8b26-42c9-ae2d-faf383be7caf"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 133.35 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2275,6 +2409,73 @@
 			(project "Magnetometer_Amplifier"
 				(path "/f412f52f-8b26-42c9-ae2d-faf383be7caf"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551fb012-4fa0-4f7e-93e2-acd0c24ea18a")
+		(property "Reference" "TP9"
+			(at 210.82 130.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9fd10cb-47e9-4a18-8c0e-6985d152e38e")
+		)
+		(instances
+			(project ""
+				(path "/f412f52f-8b26-42c9-ae2d-faf383be7caf"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -2813,19 +3014,19 @@
 			(uuid "086697a4-bca1-4b72-b9be-a8d51a77c31d")
 		)
 		(pin "5"
-			(uuid "260275ec-c248-48d5-89ef-81c234376cf7")
+			(uuid "260275ec-c248-48d5-89ef-81c234376cf8")
 		)
 		(pin "4"
-			(uuid "ee1cf197-a577-46c4-840f-3842b3e23170")
+			(uuid "ee1cf197-a577-46c4-840f-3842b3e23171")
 		)
 		(pin "7"
-			(uuid "541096cb-e2bd-46e5-b8b8-490d07376ce1")
+			(uuid "541096cb-e2bd-46e5-b8b8-490d07376ce2")
 		)
 		(pin "6"
-			(uuid "99fec212-cff1-4bd5-85da-2bba97ca73a5")
+			(uuid "99fec212-cff1-4bd5-85da-2bba97ca73a6")
 		)
 		(pin "8"
-			(uuid "4f53c8f1-215b-4e88-994d-787bff791b0f")
+			(uuid "4f53c8f1-215b-4e88-994d-787bff791b10")
 		)
 		(pin "2"
 			(uuid "e0f33cc3-c336-4399-a25d-2c8d5a4da177")
@@ -3435,19 +3636,19 @@
 			(uuid "e153502c-fbe3-4b5e-be65-f033ac5d6004")
 		)
 		(pin "5"
-			(uuid "260275ec-c248-48d5-89ef-81c234376cf7")
+			(uuid "260275ec-c248-48d5-89ef-81c234376cf9")
 		)
 		(pin "4"
-			(uuid "ee1cf197-a577-46c4-840f-3842b3e23170")
+			(uuid "ee1cf197-a577-46c4-840f-3842b3e23172")
 		)
 		(pin "7"
-			(uuid "541096cb-e2bd-46e5-b8b8-490d07376ce1")
+			(uuid "541096cb-e2bd-46e5-b8b8-490d07376ce3")
 		)
 		(pin "6"
-			(uuid "99fec212-cff1-4bd5-85da-2bba97ca73a5")
+			(uuid "99fec212-cff1-4bd5-85da-2bba97ca73a7")
 		)
 		(pin "8"
-			(uuid "4f53c8f1-215b-4e88-994d-787bff791b0f")
+			(uuid "4f53c8f1-215b-4e88-994d-787bff791b11")
 		)
 		(pin "2"
 			(uuid "6fdc9f47-169a-42c2-9369-ec293ca367da")

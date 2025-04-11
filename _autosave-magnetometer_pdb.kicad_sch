@@ -807,6 +807,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Fuse_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F1"
+				(at 2.032 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Fuse:fuse_holder"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_1_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OPAMP_1"
 			(pin_names
 				(offset 0.254)
@@ -2308,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 120.65) (xy 39.37 120.65)
+			(xy 26.67 120.65) (xy 39.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 107.95) (xy 39.37 107.95)
+			(xy 26.67 107.95) (xy 39.37 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 127) (xy 39.37 127)
+			(xy 26.67 127) (xy 39.37 127)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 95.25) (xy 39.37 95.25)
+			(xy 26.67 95.25) (xy 39.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 114.3) (xy 39.37 114.3)
+			(xy 26.67 114.3) (xy 39.37 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3705,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 101.6) (xy 39.37 101.6)
+			(xy 26.67 101.6) (xy 39.37 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3894,7 @@
 		(uuid "fe34c2f8-2959-4a6d-b1b5-43bb343af095")
 	)
 	(label "M2_OUT"
-		(at 25.4 99.06 0)
+		(at 12.7 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3767,7 +3904,7 @@
 		(uuid "13a5ff0b-328e-4789-b89d-3d48b4bd8381")
 	)
 	(label "M3_OUT"
-		(at 25.4 105.41 0)
+		(at 12.7 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3777,7 +3914,7 @@
 		(uuid "4177a407-0330-47b4-b5d7-31b4a7d32586")
 	)
 	(label "M5_OUT"
-		(at 25.4 118.11 0)
+		(at 12.7 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3787,7 +3924,7 @@
 		(uuid "67f4f2d4-ec33-4021-845e-2139049f1200")
 	)
 	(label "M4_OUT"
-		(at 25.4 111.76 0)
+		(at 12.7 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3797,7 +3934,7 @@
 		(uuid "6fedc5a0-fe05-483d-9a3f-92ee1a3bb183")
 	)
 	(label "M6_OUT"
-		(at 25.4 124.46 0)
+		(at 12.7 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3807,7 +3944,7 @@
 		(uuid "986696c8-1f21-48e4-b5c4-49d8ce728f49")
 	)
 	(label "M1_out"
-		(at 25.4 92.71 0)
+		(at 12.7 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3951,22 +4088,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 147.32 25.4) (xy 147.32 163.83) (xy 266.7 165.1) (xy 266.7 25.4) (xy 266.7 25.4)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type color)
-				(color 194 0 194 0.14)
-			)
-			(uuid 59598f2b-3950-4ea5-a585-68ca5a334c91)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 29.21 13.97) (xy 138.43 13.97) (xy 138.43 194.31) (xy 29.21 194.31) (xy 29.21 190.5)
 			)
 			(stroke
@@ -3978,7 +4099,23 @@
 				(type color)
 				(color 0 255 0 0.2)
 			)
-			(uuid 9a0c0ac7-34a3-49ed-b9d8-1783173bd865)
+			(uuid 25fe5d3e-2cb5-49ba-b898-28158787d26e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 147.32 25.4) (xy 147.32 163.83) (xy 266.7 165.1) (xy 266.7 25.4) (xy 266.7 25.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type color)
+				(color 194 0 194 0.14)
+			)
+			(uuid 90d9d7a4-6fc8-4ae5-87d3-183959c2c958)
 		)
 	)
 	(symbol
@@ -4255,7 +4392,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 107.95 180)
+		(at 21.59 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4263,7 +4400,7 @@
 		(dnp no)
 		(uuid "241a889f-efd7-4c6c-ada2-cce12f8a152e")
 		(property "Reference" "J11"
-			(at 19.05 107.442 0)
+			(at 17.78 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4408,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 22.86 101.6 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4417,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:2_Pin_Screw_Term"
-			(at 22.86 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4435,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,10 +5154,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "355cc86d-f3de-4eb7-9c1d-a3e2adc0cc93")
 		(property "Reference" "F5"
-			(at 29.21 111.76 90)
+			(at 27.686 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,6 +5169,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:fuse_holder"
@@ -5079,7 +5216,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 95.25 180)
+		(at 21.59 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5087,7 +5224,7 @@
 		(dnp no)
 		(uuid "359972fd-6684-4022-b3a5-6839a2c45bcc")
 		(property "Reference" "J9"
-			(at 17.78 95.25 0)
+			(at 16.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5232,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 22.86 88.9 0)
+			(at 21.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5241,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:2_Pin_Screw_Term"
-			(at 22.86 95.25 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 95.25 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5259,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 95.25 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,10 +5840,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dd16543-9962-4567-a282-63d0b6666261")
 		(property "Reference" "F6"
-			(at 29.21 118.11 90)
+			(at 27.686 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,6 +5855,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:fuse_holder"
@@ -5749,10 +5886,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff58")
+			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff59")
 		)
 		(pin "2"
-			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd881")
+			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd882")
 		)
 		(instances
 			(project ""
@@ -5909,10 +6046,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59785775-d921-4132-8c8d-fec60a5736d7")
 		(property "Reference" "F2"
-			(at 29.21 92.71 90)
+			(at 27.94 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,6 +6061,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:fuse_holder"
@@ -5955,10 +6092,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff58")
+			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff5a")
 		)
 		(pin "2"
-			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd881")
+			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd883")
 		)
 		(instances
 			(project ""
@@ -6039,7 +6176,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 101.6 180)
+		(at 21.59 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6047,7 +6184,7 @@
 		(dnp no)
 		(uuid "62495fc8-234f-438d-9df4-7ed19d668975")
 		(property "Reference" "J10"
-			(at 18.796 101.346 0)
+			(at 17.526 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6192,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 22.86 95.25 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:2_Pin_Screw_Term"
-			(at 22.86 101.6 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 101.6 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6219,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 101.6 0)
+			(at 21.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6642,7 @@
 		(dnp no)
 		(uuid "7429e614-55e7-45cd-8f03-41261cb281f0")
 		(property "Reference" "F3"
-			(at 29.21 99.06 90)
+			(at 27.94 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,6 +6655,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:fuse_holder"
@@ -6548,10 +6686,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff58")
+			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff5b")
 		)
 		(pin "2"
-			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd881")
+			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd884")
 		)
 		(instances
 			(project ""
@@ -6563,6 +6701,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Fuse_1")
 		(lib_id "Device:Fuse")
 		(at 29.21 92.71 90)
 		(unit 1)
@@ -6570,10 +6709,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74b13445-4f03-40bb-8dac-77681387bb9d")
 		(property "Reference" "F1"
-			(at 29.21 86.36 90)
+			(at 27.686 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,6 +6724,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:fuse_holder"
@@ -6616,10 +6755,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff58")
+			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff5c")
 		)
 		(pin "2"
-			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd881")
+			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd885")
 		)
 		(instances
 			(project ""
@@ -6973,7 +7112,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 114.3 180)
+		(at 21.59 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6981,7 +7120,7 @@
 		(dnp no)
 		(uuid "8eee1975-f2b3-4bc4-84c3-431e0d1fb016")
 		(property "Reference" "J12"
-			(at 18.288 113.03 0)
+			(at 17.018 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +7128,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 22.86 107.95 0)
+			(at 21.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +7137,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:2_Pin_Screw_Term"
-			(at 22.86 114.3 0)
+			(at 21.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 114.3 0)
+			(at 21.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7155,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 114.3 0)
+			(at 21.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7450,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 127 180)
+		(at 21.59 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7319,7 +7458,7 @@
 		(dnp no)
 		(uuid "9578dafb-6fea-46ec-a875-89a8673d7f21")
 		(property "Reference" "J14"
-			(at 18.034 127 0)
+			(at 16.764 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7466,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 27.178 131.572 0)
+			(at 25.908 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7475,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:2_Pin_Screw_Term"
-			(at 22.86 127 0)
+			(at 21.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 127 0)
+			(at 21.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7493,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 127 0)
+			(at 21.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,10 +8895,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db5712b8-4f9a-4cac-8b08-66d38eebc057")
 		(property "Reference" "F4"
-			(at 29.21 105.41 90)
+			(at 27.686 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,6 +8910,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:fuse_holder"
@@ -8802,10 +8941,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff58")
+			(uuid "1d7ffae0-8c98-47b7-8e0b-24fe8cc3ff5d")
 		)
 		(pin "2"
-			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd881")
+			(uuid "515ed96e-012f-44b2-bea6-27e8d27dd886")
 		)
 		(instances
 			(project ""
@@ -9227,7 +9366,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 22.86 120.65 180)
+		(at 21.59 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9235,7 +9374,7 @@
 		(dnp no)
 		(uuid "fa1221fb-3fb3-4a59-9c43-ecfa6c64b2ab")
 		(property "Reference" "J13"
-			(at 18.288 119.634 0)
+			(at 17.018 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9382,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 22.86 114.3 0)
+			(at 21.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9391,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:2_Pin_Screw_Term"
-			(at 22.86 120.65 0)
+			(at 21.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9261,7 +9400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 120.65 0)
+			(at 21.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,7 +9409,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 120.65 0)
+			(at 21.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
